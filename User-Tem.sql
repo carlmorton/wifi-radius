@@ -7,7 +7,7 @@ INSERT INTO  `radius`.`radcheck` (
 )
 VALUES (
 NULL ,  'kemoreen.freeman@excellgroup.com',  'User-Password',  ':=',  'kem1234!'
-
+);
 INSERT INTO  `radius`.`radcheck` (
 `id` ,
 `username` ,
@@ -17,7 +17,7 @@ INSERT INTO  `radius`.`radcheck` (
 )
 VALUES (
 NULL ,  'kemoreen.freeman@excellgroup.com',  'Calling-Station-Id',  '=~',  '.*'
-
+);
 INSERT INTO  `radius`.`radcheck` (
 `id` ,
 `username` ,
@@ -27,7 +27,7 @@ INSERT INTO  `radius`.`radcheck` (
 )
 VALUES (
 NULL ,  'kemoreen.freeman@excellgroup.com',  'Called-Station-Id',  '=~',  '.*'
-
+);
 INSERT INTO  `radius`.`radcheck` (
 `id` ,
 `username` ,
@@ -37,6 +37,7 @@ INSERT INTO  `radius`.`radcheck` (
 )
 VALUES (
 NULL ,  'kemoreen.freeman@excellgroup.com',  'NAS-Identifier',  '=~',  '.*'
+);
 
 INSERT INTO  `radius`.`radreply` (
 `id` ,
